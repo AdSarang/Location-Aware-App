@@ -14,6 +14,7 @@
 		926785451EFD752200EF8B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926785431EFD752200EF8B23 /* LaunchScreen.storyboard */; };
 		926785501EFD752300EF8B23 /* Location_AwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267854F1EFD752300EF8B23 /* Location_AwareTests.swift */; };
 		9267855B1EFD752300EF8B23 /* Location_AwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267855A1EFD752300EF8B23 /* Location_AwareUITests.swift */; };
+		9267856A1EFD754700EF8B23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926785691EFD754700EF8B23 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		926785561EFD752300EF8B23 /* Location AwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location AwareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9267855A1EFD752300EF8B23 /* Location_AwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AwareUITests.swift; sourceTree = "<group>"; };
 		9267855C1EFD752300EF8B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926785691EFD754700EF8B23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9267856A1EFD754700EF8B23 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				9267854E1EFD752300EF8B23 /* Location AwareTests */,
 				926785591EFD752300EF8B23 /* Location AwareUITests */,
 				926785381EFD752100EF8B23 /* Products */,
+				926785681EFD754600EF8B23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				9267855C1EFD752300EF8B23 /* Info.plist */,
 			);
 			path = "Location AwareUITests";
+			sourceTree = "<group>";
+		};
+		926785681EFD754600EF8B23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				926785691EFD754700EF8B23 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
